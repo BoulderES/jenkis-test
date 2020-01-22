@@ -5,9 +5,9 @@ pipeline {
         stage('Build') {
             steps {
                 echo 'Building..'
-		sh '''
-			bash -c "ls /kjhkjh"
-		'''
+		#sh '''
+		#	bash -c "ls /kjhkjh"
+		#'''
             }
         }
         stage('Test') {
