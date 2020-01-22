@@ -6,7 +6,7 @@ pipeline {
             steps {
                 echo 'Building..'
 		sh '''
-			bash -c "echo 'test'"
+			bash -c "echo 'test 2'"
 		'''
             }
         }
